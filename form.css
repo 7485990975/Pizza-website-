@@ -1,0 +1,66 @@
+body {
+    background: linear-gradient(135deg, #ff9a3c, #ff3c3c);
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+}
+
+.cheesyBox {
+    background: #fff8f0;
+    padding: 30px;
+    border-radius: 15px;
+    width: 360px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.tastyTitle {
+    text-align: center;
+    color: #d63031;
+    margin-bottom: 20px;
+}
+
+.yummyLabel {
+    font-weight: bold;
+    color: #444;
+    margin-top: 12px;
+    display: block;
+}
+
+.sliceInput {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 8px;
+    border: 2px solid #ddd;
+    outline: none;
+    transition: 0.3s;
+}
+
+.sliceInput:focus {
+    border-color: #ff6b00;
+    background: #fff;
+}
+
+.burntMsg {
+    color: #e74c3c;
+    font-size: 13px;
+    height: 18px;
+}
+
+.orderBtn {
+    width: 100%;
+    padding: 12px;
+    background: #e84118;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.orderBtn:hover {
+    background: #c23616;
+}
